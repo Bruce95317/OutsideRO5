@@ -28,7 +28,7 @@ st.dataframe(df)
 # Show statistics on the data
 st.write(df.describe())
 # Show the data as a chart
-chart = st.bar_chart(df)
+# chart = st.bar_chart(df)
 
 # Split the data into independent 'X' an dependent 'Y' as variables
 X = df.iloc[:, 0:8].values
