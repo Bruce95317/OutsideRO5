@@ -20,13 +20,13 @@ image = Image.open(
 st.image(image, caption='ML', use_column_width=True)
 
 # Get the dat
-df = pd.read_csv('diabetes.csv')
+#df = pd.read_csv('diabetes.csv')
 # Set a subheader
-st.subheader('Data Information')
+#st.subheader('Data Information')
 # show the data as a table
-st.dataframe(df)
+#st.dataframe(df)
 # Show statistics on the data
-st.write(df.describe())
+#st.write(df.describe())
 # Show the data as a chart
 # chart = st.bar_chart(df)
 
