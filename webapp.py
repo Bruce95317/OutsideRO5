@@ -42,15 +42,15 @@ X_train, X_test, Y_train, Y_test = train_test_split(
 
 
 def get_user_input():
-    pregnancies = st.sidebar.number_input('pregnancies_months', 0, 17, 3)
-    glucose = st.sidebar.number_input('glucose_mg/dL', 0, 200, 177)
-    blood_pressure = st.sidebar.number_input('blood_pressure_mmHg', 0, 150, 57)
-    skin_thickness = st.sidebar.number_input('skinthickness_0.1mm', 0, 99, 5)
-    Insulin = st.sidebar.number_input('Insulin', 0.0, 900.0, 0.0)
-    BMI = st.sidebar.number_input('BMI', 0.0, 70.0, 20.3)
+    pregnancies = st.sidebar.number_input('pregnancies_months')
+    glucose = st.sidebar.number_input('glucose_mg/dL')
+    blood_pressure = st.sidebar.number_input('blood_pressure_mmHg')
+    skin_thickness = st.sidebar.number_input('skinthickness_0.1mm')
+    Insulin = st.sidebar.number_input('Insulin')
+    BMI = st.sidebar.number_input('BMI')
     DPF = st.sidebar.number_input(
-        'DiabetesPedigreeFunction_DPF', 0.078, 2.42, 0.3753)
-    age = st.sidebar.number_input('age', 0, 99, 30)
+        'DiabetesPedigreeFunction_DPF')
+    age = st.sidebar.number_input('age')
 
 
 # Store a dictionary into a variable
