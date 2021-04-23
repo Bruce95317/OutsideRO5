@@ -10,8 +10,8 @@ import streamlit as st
 
 # Create a title and a sub-title
 st.write("""
-# Diabetes Detection
-Detect if someone has diabetes
+# Outside Lipinski Rule of 5
+Detect if molecule can be orally administered
 """)
 
 # Open and display an image
