@@ -42,14 +42,14 @@ X_train, X_test, Y_train, Y_test = train_test_split(
 
 
 def get_user_input():
-    pregnancies = st.sidebar.number_input('pregnancies_months')
-    glucose = st.sidebar.number_input('glucose_mg/dL')
-    blood_pressure = st.sidebar.number_input('blood_pressure_mmHg')
-    skin_thickness = st.sidebar.number_input('skinthickness_0.1mm')
-    Insulin = st.sidebar.number_input('Insulin')
-    BMI = st.sidebar.number_input('BMI')
+    pregnancies = st.sidebar.number_input('Molecular_weight')
+    glucose = st.sidebar.number_input('LogP')
+    blood_pressure = st.sidebar.number_input('LogD')
+    skin_thickness = st.sidebar.number_input('Hydrogen Bond Acceptor (HBA)')
+    Insulin = st.sidebar.number_input('Hydrogen Bond Doner (HDA)')
+    BMI = st.sidebar.number_input('PSA')
     DPF = st.sidebar.number_input(
-        'DiabetesPedigreeFunction_DPF')
+        'Rotatory Bond (ROT)')
     age = st.sidebar.number_input('age')
 
 
