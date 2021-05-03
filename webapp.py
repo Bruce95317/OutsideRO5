@@ -89,3 +89,8 @@ prediction = RandomForestClassifier.predict(user_input)
 # Set a subheader to dispaly the classifiction
 st.subheader('Classification: ')
 st.write(prediction)
+
+
+# Display link to source code
+st.subheader('Soruce Code: ')
+st.write('https://github.com/Bruce95317/OutsideRO5')
