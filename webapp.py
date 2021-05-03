@@ -50,7 +50,7 @@ def get_user_input():
     BMI = st.sidebar.number_input('PSA')
     DPF = st.sidebar.number_input(
         'Rotatory Bond (ROT)')
-    age = st.sidebar.number_input('age')
+    age = st.sidebar.number_input('N/A')
 
 
 # Store a dictionary into a variable
